@@ -1,0 +1,234 @@
+
+h1
+{
+	color:#7efff5;
+}
+nav
+{
+	width:90%;
+	position:fixed;
+	background-color:white;
+}
+ul
+{
+	list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+li
+{
+	float:left;
+}
+li a
+{
+	diplay:block;
+	color:black;
+	text-align:centre;
+	padding:14px 16px;
+	text-decoration:none;
+}
+img {
+	
+	background-repeat: no-repeat;
+	background-size: auto;
+  }
+.padding
+{
+	padding: 10px;
+}
+li a:hover
+{
+	background-color:tan;
+}
+.main
+{
+	position:relative
+}
+.name
+{
+	position:absolute;
+	top:30%;
+	left:20%;
+}
+.name h1
+{
+	letter-spacing:9px;
+	font-size:80;
+	color:white;
+}
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: #4b6584;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  border-top: none;
+}
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+	from {opacity: 0;}
+	to {opacity: 1;}
+  }
+  
+  @keyframes fadeEffect {
+	from {opacity: 0;}
+	to {opacity: 1;}
+  }
+div.a{
+  position:absolute;
+   top: 670px;
+   left:500px;
+   font-size:50px;
+   color:#c44569;
+}
+div.b{
+position:absolute;
+top:720px;
+left:70px;
+font-size:30px;
+color:#1B1464;
+}
+div.c{
+position:absolute;
+top:900px;
+font-size:50px;
+color:#c44569;
+left:500px;
+}
+div.d{
+position:absolute;
+top:950px;
+font-size:30px;
+color:#1B1464;
+left:70px;
+}
+div.e{
+position:absolute;
+top:1200px;
+font-size:50px;
+color:#c44569;
+left:500px;
+}
+div.f
+{
+position:absolute;
+top:1300px;
+font-size:20px;
+color:#079992;
+left:70px;
+}
+.gallery{
+	margin:70px 100px;
+	}
+	
+
+div.gallery img{
+	width: 300px;
+	padding:5px;
+	filter:grayscale(100%);
+	transition:1s;
+}
+.gallery img:hover{
+	filter:grayscale(0);
+	transform:scale(1.1);
+	
+}
+
+.center ul{
+	position:absolute;
+	top:100px;
+	left:1050px;
+	padding:0;
+	margin:0;
+	transform:translate(-50%, -50%);
+	display:flex;
+	
+}
+.center ul li{
+	list-style:none;
+	margin:0 10px;
+	
+}
+.center ul li .fa{
+	font-size:20px;
+	line-height:15px;
+	transition:.6s;
+	color:black;
+}
+.center ul li .fa:hover{
+	color:#fff;
+}
+.center ul li a{
+	position:relative;
+	display:block;
+	width:15px;
+	height:15px;
+	border-radius:50%;
+	background-color:#fff;
+	text-align:center;
+	transition:.6s;
+	box-shadow:0 5px 4px rgba(0,0,0,.5);
+}
+.center ul li a:hover{
+	transform:translate(0,-10px);
+}
+.center ul li:nth-child(1) a:hover{
+	background-color:3b5999;
+}
+.center ul li:nth-child(2) a:hover{
+	background-color:e4405f;
+}
+.center ul li:nth-child(3) a:hover{
+	background-color:55acee;
+}	
+.center ul li:nth-child(4) a:hover{
+	background-color:cd201f;
+}	
+.center ul li:nth-child(5) a:hover{
+	background-color:00AFF0;
+}
+.center ul li:nth-child(6) a:hover{
+	background-color:410093;
+}
+.center ul li:nth-child(7) a:hover{
+	background-color:0077B5;
+}	
+.center ul li:nth-child(8) a:hover{
+	background-color:dd4b39;
+}
+.ab{
+	font-size:30px;
+}	
+		
+	
+	
+		
+	
+	
+	
+
+
+
+
+	
+
